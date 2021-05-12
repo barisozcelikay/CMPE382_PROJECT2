@@ -6,7 +6,7 @@
 
 struct block{
  size_t size;
- int free; // 1 if area is free 0 if it is not
+ int free; 
  int init;
  struct block *next_block;
 
